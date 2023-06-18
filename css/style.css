@@ -1,0 +1,154 @@
+
+@import url(css/reset.css);
+
+header{
+    max-width: 100%;
+
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+.contactBanner a{
+    color: rgb(241, 237, 232);
+    text-align: center;
+    margin: 10px;
+}
+
+.contactBanner{
+    background-color: black;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    font-size: 12px;
+    padding-left: 50px;
+}
+
+.navBar{
+    border-bottom: 0.5px solid rgba(204, 170, 61, 0.57);
+    background-color: #f2ede7;
+    
+}
+
+.navMenu{
+   display: flex;
+   list-style-type: none;
+   justify-content: center;  
+   position: relative;
+}
+
+
+.navMenu  a:hover{
+    color: #ccaa3d;
+}
+
+.navMenu li{
+    padding: 0px 20px 0px 22px;
+    list-style-type: none;
+    position: relative; 
+    width: max-content; 
+}
+
+.navMenu li:nth-of-type(2){
+    padding-bottom: 58px;
+    padding-top: 58px;      
+}
+
+.navMenu li:nth-of-type(5){
+    padding-bottom: 58px;
+    padding-top: 58px;
+    max-height: max-content;      
+}
+
+.navMenu li:hover .subMenu{
+    display: block
+}
+
+
+.subMenu li:hover{
+    background-color: rgba(187, 187, 166, 0.1);
+}
+
+.navMenu img{
+    width: 90px;    
+}
+
+.navMenu img:hover{
+ opacity: 0.6;
+}
+
+.navMenu{
+    display: flex;
+    align-items:center;
+    margin: 0;
+}
+
+
+.subMenu{
+    background: #fff;
+    padding: 0;           
+}
+
+.subMenu li{
+    border-top: 0.2px solid rgba(204, 170, 61, 0.57);
+    margin: 0;
+    padding: 20px;
+    text-align: center;
+    width: 100%;
+    border: 0.2px solid rgba(204, 170, 61, 0.57);
+    
+}
+
+.subMenu li:first-child{
+    border-top: 3px solid  #998524;
+}
+
+.subMenu li:nth-child(2){
+    padding: 20px;    
+}
+
+.subMenu li:nth-child(5){
+    padding: 20px;    
+}
+
+.subMenu{
+    display: none;
+    position: absolute;
+    top: 133px;
+    left: 0;
+    transition: opacity 0.3s ease-out;
+    -webkit-transition: opacity 0.3s ease-out;
+    -moz-transition: opacity 0.3s ease-out;
+    -ms-transition: opacity 0.3s ease-out;
+    -o-transition: opacity 0.3s ease-out;
+    width: 200px;
+}
+
+/* panier */
+.fa-basket-shopping{
+    position: relative;
+}
+
+.fa-basket-shopping::after{
+    position: absolute;
+    content: "0";
+    color: #fff;
+    font-size: 10px;
+    text-align: center;
+    background-color: #998524;
+    width: 15px;
+    height: 13px;
+    padding-top: 3px;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+
+
+
